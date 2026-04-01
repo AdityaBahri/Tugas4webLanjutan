@@ -1,7 +1,7 @@
 """
 main.py — FastAPI Microservice: JWT Auth, RBAC, dan Task CRUD
 =============================================================
-Author     :  Ahmad Hidayat
+Author     :  Aditya Hisbul Bahri
 Teknologi  :  FastAPI, python-jose (JWT), passlib (sha256_crypt), python-multipart
 Database   :  In-memory dictionary (simulasi, tanpa database persisten)
 """
@@ -17,7 +17,7 @@ from pydantic import BaseModel
 # ---------------------------------------------------------------------------
 # Konfigurasi JWT
 # ---------------------------------------------------------------------------
-SECRET_KEY = "kunci_rahasia_ahmad_hidayat_2024"
+SECRET_KEY = "kunci_rahasia_adit"
 ALGORITHM = "HS256"
 ACCESS_TOKEN_EXPIRE_MINUTES = 60
 
