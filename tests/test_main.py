@@ -1,7 +1,7 @@
 """
 tests/test_main.py — Test Suite untuk FastAPI Microservice
 ===========================================================
-Author  :  Ahmad Hidayat
+Author  :  Aditya Hisbul Bahri
 
 Mencakup 3 skenario wajib:
   1. Pengujian Alur Autentikasi  (register & login → JWT token)
